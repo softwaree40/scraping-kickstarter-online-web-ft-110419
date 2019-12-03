@@ -1,6 +1,6 @@
 # require libraries/modules here
 require "nokogiri"
-require "kickstarter.html"
+file: kickstarter_scraper.rb
 
 def create_project_hash
   # write your code here
