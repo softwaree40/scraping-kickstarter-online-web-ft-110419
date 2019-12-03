@@ -1,6 +1,6 @@
 # require libraries/modules here
 require "nokogiri"
-require_relative './kickstarter.html'
+require_relative './kickstarter.rb'
 def create_project_hash
   # write your code here
   html = File.read('fixtures/kickstarter.html')
